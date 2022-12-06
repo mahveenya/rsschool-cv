@@ -39,8 +39,6 @@ let result = sum(1, 2);
 alert( result );
 ```
 
-# Experience
-
 # English
 
 C1 (according to [examinator.epam.com](https://examinator.epam.com/Main/PersonalAssignments/534858))
