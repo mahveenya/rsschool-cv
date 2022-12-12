@@ -1,7 +1,15 @@
+body {
+    color: rgb(0, 100, 100);
+}
+
 h1 {
-   color: teal; 
+    color: rgb(0, 187, 115);
 }
 
 p {
-    color: aqua;
+    color: rgb(0, 158, 13);
+}
+
+.lor {
+    color: rgb(121, 76, 17);
 }
