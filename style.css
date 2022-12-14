@@ -1,15 +1,114 @@
-body {
-    color: rgb(0, 100, 100);
+@font-face {
+    font-family: Montserrat;
+    src: url(assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
 
-h1 {
-    color: rgb(0, 187, 115);
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-p {
-    color: rgb(0, 158, 13);
+.body {
+    font-family: Montserrat, sans-serif;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1024px;
+    background-color: antiquewhite;
+    border: 5px solid black;
 }
 
-.lor {
-    color: rgb(121, 76, 17);
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
 }
+
+.nav_list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin: 40px 0px auto;
+    background-color: #fff;
+    height: 100px;
+}
+
+.nav_btn {
+    width: 50px;
+    height: 50px;
+    margin: 0px 25px;
+}
+
+.nav_icon {
+    width: 50px;
+    height: 50px;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.nav_icon:hover {
+    opacity: 1;
+}
+
+.flex-about-me_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 100, 100);
+}
+
+.flex-about-me_photo {
+    min-height: 250px;
+    min-width: 250px;
+    margin-left: 80px;
+    background-color: rgb(127, 255, 101);
+}
+
+.flex-about-me_info {
+    min-height: 250px;
+    min-width: 550px;
+    margin-right: 80px;
+    background-color: rgb(255, 103, 103);
+}
+
+/* .footer_list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.footer_link {
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+.toggle {
+    --width: 60px;
+    --height: calc(var(--width)/3);
+    --border-radius: calc(var(--height)/1.5);
+
+    display: inline-block;
+    cursor: pointer;
+}
+
+.toggle_input {
+    display: none;
+}
+
+.toggle_bg {
+    position: relative;
+    right: 5px;
+    width: var(--width);
+    height: var(--height);
+    border-radius: var(--border-radius);
+    background: rgba(0, 255, 191, 0.5);
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    transition: background 0.2s ease-in-out;
+}
+.toggle_input:checked ~ .toggle_bg {
+    background: rgba(255, 196, 0, 0.5);
+} */
