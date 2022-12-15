@@ -15,13 +15,7 @@
     margin: 0 auto;
     padding: 0;
     max-width: 1024px;
-    background-color: antiquewhite;
-    border: 5px solid black;
-}
-
-.container {
-    max-width: 1024px;
-    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
 }
 
 .nav_list {
@@ -29,9 +23,10 @@
     justify-content: flex-end;
     align-items: center;
     list-style: none;
-    margin: 40px 0px auto;
-    background-color: #fff;
-    height: 100px;
+    margin: 0px auto;
+    /* background-color: rgb(223, 223, 223); */
+    background-color: antiquewhite;
+    height: 80px;
 }
 
 .nav_btn {
@@ -55,21 +50,50 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(0, 100, 100);
+    background-color: rgb(15, 0, 58);
 }
 
 .flex-about-me_photo {
-    min-height: 250px;
-    min-width: 250px;
-    margin-left: 80px;
-    background-color: rgb(127, 255, 101);
+    width: 350px;
+    height: 350px;
+    margin-left: 50px;
+    object-fit: cover;
+    opacity: 0.6;
 }
 
 .flex-about-me_info {
-    min-height: 250px;
-    min-width: 550px;
-    margin-right: 80px;
-    background-color: rgb(255, 103, 103);
+    height: 350px;
+    width: 600px;
+    padding: 20px 20px 20px 10px;
+}
+
+.flex-about-me_info {
+    font-size: 1.5rem;
+    color: antiquewhite;
+}
+
+.name {
+    font-weight: 100;
+}
+
+.surname {
+    font-weight: 900;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.divider {
+    width: 450px;
+    border-bottom: 3px solid antiquewhite;
+    margin-bottom: 10px;
+}
+
+.profession {
+    margin-bottom: 10px;
+}
+
+.about {
+    font-size: 1.25rem;
 }
 
 /* .footer_list {
