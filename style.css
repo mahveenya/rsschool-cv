@@ -98,6 +98,7 @@
 
 .flex-container_main-info {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     background-color: antiquewhite;
     font-size: 1.5rem;
@@ -146,7 +147,7 @@ li:nth-child(even) {
 }
 
 .flex_summary, .flex_skills {
-    max-width: 400px;
+    max-width: 412px;
 }
 
 .education {
