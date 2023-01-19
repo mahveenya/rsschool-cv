@@ -1,0 +1,262 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 200 900;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 200 900;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --text-color: rgb(30, 0, 114)
+}
+
+.body {
+  font-family: Montserrat, sans-serif;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1024px;
+  background-color: rgb(255, 255, 255);
+}
+
+.nav_list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  background-color: antiquewhite;
+  height: 50px;
+}
+
+.nav_icon {
+  width: 30px;
+  height: 30px;
+  margin-top: 15px;
+  margin-right: 20px;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.nav_icon:hover {
+  opacity: 1;
+}
+
+.flex-about-me_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(15, 0, 58);
+}
+
+.flex-about-me_photo {
+  min-width: 150px;
+  width: 350px;
+  min-height: 350px;
+  max-height: 350px;
+  object-fit: cover;
+  opacity: 0.7;
+  margin: 0 auto;
+}
+
+.flex-about-me_info {
+  max-width: 600px;
+  padding: 10px 20px 15px 20px;
+}
+
+.flex-about-me_info {
+  font-size: 1.5rem;
+
+  color: antiquewhite;
+}
+
+.name {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.surname {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.divider {
+  max-width: 450px;
+  border-bottom: 3px solid antiquewhite;
+  margin-bottom: 10px;
+}
+
+.profession {
+  margin-bottom: 10px;
+}
+
+.about {
+  font-size: 1.25rem;
+}
+
+.flex-container_main-info,
+.flex_projects {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: antiquewhite;
+  font-size: 1.5rem;
+}
+
+.main-info_list,
+.section_header,
+.project-subhead {
+  color: var(--text-color)
+}
+
+.section_header,
+.project-subhead {
+  margin-bottom: 10px;
+}
+
+.flex_projects {
+  margin-top: 0;
+}
+
+.main-info_list {
+  font-size: 1rem;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+a {
+  color: var(--text-color)
+}
+
+a:hover {
+  color: brown;
+}
+
+li:nth-child(even) {
+  margin: 10px 0;
+}
+
+.flex_main-info,
+.flex_projects {
+  margin: 50px 25px 0 50px;
+}
+
+.list-subhead,
+.project-subhead {
+  font-weight: 600;
+}
+
+.project-subhead {
+  font-size: 1.15rem;
+}
+
+.flex_summary,
+.flex_skills {
+  max-width: 412px;
+}
+
+.education {
+  margin-top: 80px;
+}
+
+.project_description {
+  color: var(--text-color);
+  font-size: 1.15rem;
+  margin: 0 0 50px 0;
+}
+
+.project_responsibilities_part1,
+.project_responsibilities_part2 {
+  max-width: 412px;
+}
+
+.flex_projects {
+  margin-bottom: 50px;
+}
+
+.flex-footer_container {
+  min-height: 50px;
+}
+
+.footer_list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  background-color: rgb(15, 0, 58);
+  color: antiquewhite;
+  list-style: none;
+  height: 70px;
+}
+
+.rs_logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 40px;
+  margin-left: 40px;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.rs_logo:hover {
+  opacity: 1;
+}
+
+/* .footer_list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.footer_link {
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+.toggle {
+    --width: 60px;
+    --height: calc(var(--width)/3);
+    --border-radius: calc(var(--height)/1.5);
+
+    display: inline-block;
+    cursor: pointer;
+}
+
+.toggle_input {
+    display: none;
+}
+
+.toggle_bg {
+    position: relative;
+    right: 5px;
+    width: var(--width);
+    height: var(--height);
+    border-radius: var(--border-radius);
+    background: rgba(0, 255, 191, 0.5);
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    transition: background 0.2s ease-in-out;
+}
+.toggle_input:checked ~ .toggle_bg {
+    background: rgba(255, 196, 0, 0.5);
+} */
