@@ -87,12 +87,12 @@
 }
 
 .name {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 400;
 }
 
 .surname {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 900;
   margin-bottom: 10px;
   display: inline-block;
