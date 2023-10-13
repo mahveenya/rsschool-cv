@@ -26,7 +26,7 @@ padding/marging: rem/em
 }
 
 svg {
-  fill: #0F003A;
+  fill: #0f003a;
   width: 2rem;
   height: inherit;
   cursor: pointer;
@@ -59,7 +59,7 @@ svg {
   justify-content: space-between;
   gap: 1rem;
   position: relative;
-  border: 0.3rem solid #0F003A;
+  border: 0.3rem solid #0f003a;
   border-radius: 1.3rem;
   padding: 0.6rem 0.8rem 0.2rem 0.8rem;
   width: 7.5rem;
@@ -71,7 +71,7 @@ svg {
   border-left: 0.5rem solid #0000;
   border-right: 0.5rem solid #0000;
   border-bottom: 0.5rem solid #0000;
-  border-top: 0.5rem solid #0F003A;
+  border-top: 0.5rem solid #0f003a;
   left: 1.2rem;
   top: 0;
   transition: ease-in 0.3s;
@@ -94,4 +94,56 @@ svg {
 .theme-toggle svg {
   width: unset;
   height: unset;
+}
+
+circle,
+rect {
+  transition: ease-in-out 0.5s;
+}
+
+.sun__ray1 {
+  transform-box: fill-box;
+  transform-origin: top left;
+  transform: rotate(45deg);
+}
+.sun__ray2 {
+  transform-box: fill-box;
+  transform-origin: top left;
+  transform: rotate(90deg);
+}
+.sun__ray3 {
+  transform-box: fill-box;
+  transform-origin: top left;
+  transform: rotate(135deg);
+}
+.sun__ray4 {
+  transform-box: fill-box;
+  transform-origin: top left;
+  transform: rotate(225deg);
+}
+.sun__ray5 {
+  transform-box: fill-box;
+  transform-origin: top left;
+  transform: rotate(270deg);
+}
+.sun__ray6 {
+  transform-box: fill-box;
+  transform-origin: top left;
+  transform: rotate(315deg);
+}
+
+.sun__ray7 {
+  transform-box: fill-box;
+  transform-origin: top left;
+  transform: rotate(180deg);
+}
+
+.sun__rays--dark-theme {
+    width: 0;
+}
+
+.sun--dark-theme {
+  fill: rgb(241, 174, 86);
+  r: 20;
+  transform: translateY(1rem);
 }
